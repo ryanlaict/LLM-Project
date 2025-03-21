@@ -1,7 +1,7 @@
 # LLM Project
 
 ## Project Task
-This project task was to create a sentiment analysis of Yelp reviews based on the Yelp dataset: https://huggingface.co/datasets/Yelp/yelp_review_full. The goal was to be able to correctly identify the sentiment of the Yelp review based on the text of the review. 
+This project task was to create a sentiment analysis of Yelp reviews based on the Yelp dataset: https://huggingface.co/datasets/Yelp/yelp_review_full. The goal was to be able to correctly identify the sentiment of the Yelp review based on the text of the review. Model Card: https://huggingface.co/helpiamlost123/RL-LLM#rl-llm
 
 ## Dataset
 The dataset used is the Yelp Review Full dataset from Hugging Face Datasets. It contains 650,000 reviews for training and 50,000 reviews for testing. Each review is labeled with a star rating from 1 to 5. The dataset was cleaned and processed. A subset of the dataset was created for testing purpose with 10,000 rows. Each review is labeled with a star rating from 1 to 5. The CSV was created and saved for faster recall. The Train/Test splits were stratified based on labels to ensure that there was a fair distribution of types of reviews for the model to train against and that the subset of the data did not unfairly bias one type of review. 
