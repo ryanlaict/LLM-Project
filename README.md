@@ -22,12 +22,12 @@ Accuracy was used to evaluate the overall prediction of the model and the combin
 ## Hyperparameters
 During the tuning process of this project, the following training parameters were used: 
 
-  learning_rate: 1e-05
-  train_batch_size: 8
-  eval_batch_size: 8
-  gradient_accumulation_steps: 2
-  total_train_batch_size: 16
-  num_epochs: 2
+  - learning_rate: 1e-05
+  - train_batch_size: 8
+  - eval_batch_size: 8
+  - gradient_accumulation_steps: 2
+  - total_train_batch_size: 16
+  - num_epochs: 2
 
 The reason for these choices were to reduce the resource demands of the training process while still maintaining reasonable results from the model. Future steps will be to increase the training size of the dataset and increasing the parameters to be more detailed to build a more robust model. 
 
