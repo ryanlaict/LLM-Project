@@ -4,10 +4,10 @@
 This project task was to create a sentiment analysis of Yelp reviews based on the Yelp dataset: https://huggingface.co/datasets/Yelp/yelp_review_full. The goal was to be able to correctly identify the sentiment of the Yelp review based on the text of the review. 
 
 ## Dataset
-The dataset used is the Yelp Review Full dataset from Hugging Face Datasets. It contains 650,000 reviews for training and 50,000 reviews for testing. Each review is labeled with a star rating from 1 to 5. The dataset was cleaned and processed. A subset of the dataset was created for testing purpose with 10,000 rows. The CSV was created and saved for faster recall. The Train/Test splits were stratified based on labels to ensure that there was a fair distribution of types of reviews for the model to train against and that the subset of the data did not unfairly bias one type of review. 
+The dataset used is the Yelp Review Full dataset from Hugging Face Datasets. It contains 650,000 reviews for training and 50,000 reviews for testing. Each review is labeled with a star rating from 1 to 5. The dataset was cleaned and processed. A subset of the dataset was created for testing purpose with 10,000 rows. Each review is labeled with a star rating from 1 to 5. The CSV was created and saved for faster recall. The Train/Test splits were stratified based on labels to ensure that there was a fair distribution of types of reviews for the model to train against and that the subset of the data did not unfairly bias one type of review. 
 
 ## Pre-trained Model
-The Pre-trained model that was utilized in this project was distilbert-base-uncased. It is lighter version of Bert which is important due to resource limitations in this project. It was still able to accurately model the dataset and create labels while balancing resourcing demands.
+The Pre-trained model that was utilized in this project was distilbert-base-uncased. It is lighter version of Bert which is important due to resource limitations in this project. It was still able to accurately model the dataset and create labels while balancing resourcing demands. 
 
 ## Performance Metrics
 To accurately assess the performance of this model. The metrics of Accuracy, Recall, and F1-Score were used in combination to evaluate the performance of each model. The Bert's performance was adequate before tuning the parameters. 
