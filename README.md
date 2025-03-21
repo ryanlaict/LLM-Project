@@ -14,9 +14,9 @@ To accurately assess the performance of this model. The metrics of Accuracy, Rec
 
 After tuning and performing a cross-validation with 5 K-folds, the final results for the model were: 
 
-Accuracy: 0.9077
-Recall: 0.8986
-F1: 0.9066
+- Accuracy: 0.9077
+- Recall: 0.8986
+- F1: 0.9066
 
 Accuracy was used to evaluate the overall prediction of the model and the combination of Recall and F1 were used to ensure a balanced performance. The high scores confirmed that the model was accurately making predictions and it was balanced. 
 ## Hyperparameters
